@@ -6,8 +6,10 @@ $(function () {
         success: function (data) {
 			// 判断是否成功
 			if (data.msg === '成功' && data.code === '1') {
+				// 清空子节点
 				$("#content-action").empty();
 				$(data.result).each(function(i,d){
+					// 循环遍历添加元素
 					$("#content-action").append(''+
 						'<div class="item">'+
 							'<div class="item-content">'+

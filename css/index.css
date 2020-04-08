@@ -22,9 +22,9 @@ body {
 .header-container{
 	position: relative;
 	background-color: #fffeff;
-	height: 220px;
+	height: 240px;
 	border-radius:20px 20px 0 0;
-	top: 80px;
+	top: 60px;
 }
 .header .header-container .banner {
 	position: relative;
@@ -32,7 +32,7 @@ body {
 	border-radius:10px;
 	margin: 0 auto;
 	width: 90%;
-	height: 100px;
+	height: 120px;
 	background: url(../img/banner.jpg) center;
 	background-size: 100% 100%;
 	
@@ -71,9 +71,10 @@ body {
 .content h2 {
 	width: 90%;
 	margin:0 auto;
-	height: 60px;
-	line-height: 60px;
-	font-weight: 500;
+	height: 50px;
+	line-height: 50px;
+	font-weight: 600;
+	font-size: 18px;
 	border-bottom: 2px solid #f9f9fb;
 }
 .content .content-container {
@@ -83,15 +84,15 @@ body {
 }
 
 .content .content-container .item {
-	height: 80px;
+	height: 100px;
 	border-bottom: 2px solid #f9f9fb;
 }
 
 .content .content-container .item .item-content {
 	width: 75%;
-	height: 60%;
+	height: 70px;
 	float: left;
-	margin-top: 5%;
+	margin:15px 0;
 }
 .content .content-container .item .item-content a {
 	width: 80%;
@@ -104,9 +105,9 @@ body {
 	color: black;
 }
 .content .content-container .item .item-content p {
-	font-size: 14px;
+	font-size: 12px;
 	font-weight: 100;
-	margin-top: 10px;
+	margin-top: 15px;
 }
 .content .content-container .item .item-content p>i {
 	margin-left: 25px;
@@ -115,9 +116,9 @@ body {
 
 .content .content-container .item .item-img {
 	display: inline-block;
-	height: 60%;
+	height: 70;
 	width: 25%;
-	margin-top: 5%;
+	margin: 15px 0;
 }
 .content .content-container .item .item-img img {
 	width: 80%;
