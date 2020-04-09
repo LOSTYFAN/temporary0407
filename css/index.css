@@ -108,6 +108,9 @@ body {
 	font-size: 12px;
 	font-weight: 100;
 	margin-top: 15px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
 }
 .content .content-container .item .item-content p>i {
 	margin-left: 25px;
