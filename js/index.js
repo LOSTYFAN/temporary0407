@@ -17,6 +17,7 @@ $(function () {
 								'<p>'+
 									'<span>'+d.time+'</span>'+
 									'<i>'+d.status_DISPLAY+'</i>'+
+									'<i>'+d.author+'</i>'+
 								'<p>'+
 							'</div>'+
 							'<div class="item-img">'+
